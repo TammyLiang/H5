@@ -1,9 +1,9 @@
 
 # HTML编码规范
 
-[1 命名规则](#user-content-1-%E5%89%8D%E8%A8%80)
+[1 命名规则](#user-content-1-命名规则)
 
-　　[1.1 项目命名](#user-content-12-%E7%BC%A9%E8%BF%9B)
+　　[1.1 项目命名](#user-content-11-项目命名)
 
 　　[1.2 目录命名](#user-content-12-%E7%BC%A9%E8%BF%9B)
 
