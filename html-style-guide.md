@@ -5,35 +5,35 @@
 
 　　[1.1 项目命名](#user-content-11-项目命名)
 
-　　[1.2 目录命名](#user-content-12-%E7%BC%A9%E8%BF%9B)
+　　[1.2 目录命名](#user-content-12-目录命名)
 
-　　[1.3 JS文件命名](#user-content-13-%E7%A9%BA%E6%A0%BC)
+　　[1.3 JS文件命名](#user-content-13-JS文件命名)
 
-　　[1.4 css文件命名](#user-content-14-%E8%A1%8C%E9%95%BF%E5%BA%A6)
+　　[1.4 css文件命名](#user-content-14-css文件命名)
 
-　　[1.5 HTML文件命名](#user-content-15-%E9%80%89%E6%8B%A9%E5%99%A8)
+　　[1.5 HTML文件命名](#user-content-15-HTML文件命名)
 
-[2 HTML](#user-content-2-%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC)
+[2 HTML](#user-content-2-HTML)
 
-　　[2.1 语法](#user-content-21-%E6%96%87%E4%BB%B6)
+　　[2.1 语法](#user-content-21-语法)
 
-　　[2.2 HTML5 doctype](#user-content-22-%E7%BC%A9%E8%BF%9B)
+　　[2.2 HTML5 doctype](#user-content-22-HTML5doctype)
 
-　　[2.3 lang属性](#user-content-23-%E7%A9%BA%E6%A0%BC)
+　　[2.3 lang属性](#user-content-23-lang属性)
 
-　　[2.4 字符编码](#user-content-24-%E8%A1%8C%E9%95%BF%E5%BA%A6)
+　　[2.4 字符编码](#user-content-24-字符编码)
 
-　　[2.5 IE兼容模式](#user-content-25-%E9%80%89%E6%8B%A9%E5%99%A8)
+　　[2.5 IE兼容模式](#user-content-25-IE兼容模式)
 
-　　[2.6 引入CSS, JS](#user-content-26-%E5%B1%9E%E6%80%A7)
+　　[2.6 引入CSS,JS](#user-content-26-引入CSS,JS)
 
-　　[2.7 属性顺序](#user-content-27-%E5%B1%9E%E6%80%A7)
+　　[2.7 属性顺序](#user-content-27-属性顺序)
 
-　　[2.8 boolean属性](#user-content-28-%E5%B1%9E%E6%80%A7)
+　　[2.8 boolean属性](#user-content-28-boolean属性)
 
-　　[2.9 JS生成标签](#user-content-29-%E5%B1%9E%E6%80%A7)
+　　[2.9 JS生成标签](#user-content-29-JS生成标签)
 
-　　[2.10 减少标签数量](#user-content-210-%E5%B1%9E%E6%80%A7)
+　　[2.10 减少标签数量](#user-content-210-减少标签数量)
 
 ## 1 命名规则
 
@@ -77,7 +77,7 @@
     不要在自动闭合标签结尾处使用斜线（HTML5 规范 指出他们是可选的）；
     不要忽略可选的关闭标签，例：</li> 和 </body>。
 
-### 2.2 HTML5 doctype
+### 2.2 HTML5doctype
     在页面开头使用这个简单地doctype来启用标准模式，使其在每个浏览器中尽可能一致的展现；
 
 #### 虽然doctype不区分大小写，但是按照惯例， `doctype大写` 
@@ -105,13 +105,13 @@
 
 ### 2.5 IE兼容模式
 
-    用 `meta` 标签可以指定页面应该用什么版本的IE来渲染；
+用`meta`标签可以指定页面应该用什么版本的IE来渲染；
 
     更多IE meta，请点击[这里](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)；
 
     不同doctype在不同浏览器下会触发不同的渲染模式,[点击这里](https://hsivonen.fi/doctype/)。
 
-### 2.6 引入CSS, JS
+### 2.6 引入CSS,JS
 
     根据HTML5规范, 通常在引入CSS和JS时不需要指明 type，因为 text/css 和 text/javascript 分别是他们的默认值。
     
